@@ -15,7 +15,7 @@ import java.util.HashMap;
 public class Dif_WayToCreate_PostRequestBody {
 int id;
 	//1) post request body using hasmap
-	//@Test
+	@Test
 	public void testpost_using_hashmap() {
 		HashMap data=new HashMap();
 		data.put("name", "Akash gokule");
@@ -32,7 +32,7 @@ int id;
     	 .statusCode(201)
  	     .log().all();
 	}
-	//@Test
+	@Test
 	public void testpost_using_jsonlibrary() {
 		JSONObject data=new JSONObject();
     	data.put("email", "Akash@123");

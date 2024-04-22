@@ -35,13 +35,7 @@ public class ParsingJSONResponceData {
 			}
 		}
 		Assert.assertEquals(status, true);
-		
-		
-		
+
 	}
-		
-	
-	
-	
 
 }

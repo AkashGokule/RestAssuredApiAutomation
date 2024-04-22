@@ -1,10 +1,10 @@
 package apiTest;
 
 public class PojoClass {
-	String email;
-	String first_name;
-	String last_name;
-	String course[];
+String email;
+String first_name;
+String last_name;
+String course[];
 	
 	public String getEmail() {
 		return email;

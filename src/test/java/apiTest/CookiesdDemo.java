@@ -19,7 +19,7 @@ public void testCookie() {
 		  .get("https://www.google.com/") 
 		
 		.then()
-		  .cookie("ACE", "Ae3NU9M88ZAoovjJ8ad5mlkUg7AV7H9ZSJKwSzDEITTp375eeh7Ad20DyQg; expires=Sat, 28-Sep-2024 12:35:18 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax")
+		  .cookie("AEC", "AQTF6HyllnOsvZTHUaL9ejb7EmJROimfF4ZTkAXC3WiMf3mZ_YKpsc563w")
 		  .statusCode(200)
 		  .log().all()
 		;		
@@ -31,12 +31,12 @@ public void testCookies() {
 		
 		.when()
 		  .get("https://www.google.com/") ;
-		 Map<String, String> cookies_vaslue = res.getCookies();
+		Map<String, String> cookies_vaslue = res.getCookies();
  
  for (String k:cookies_vaslue.keySet()) {
 	             String cookies = res.getCookie(k);
 	             System.out.println(k+"    "+cookies);
- }
+}
 		
 //		.then()
 //		  .statusCode(200)
