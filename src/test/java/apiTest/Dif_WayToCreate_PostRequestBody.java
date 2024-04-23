@@ -49,6 +49,7 @@ int id;
 //    	.then()
 //    	 .statusCode(201)
 // 	     .log().all(); 
+    	
 	}
 	@Test
 	public void testpost_using_pojoClass() {

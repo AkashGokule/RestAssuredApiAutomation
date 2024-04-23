@@ -23,8 +23,8 @@ public class Createuser {
 	    	.when()
 	    	    .post("https://reqres.in/api/users")
 	    	    .jsonPath().getInt("id");
-		
-		context.getSuite().setAttribute("user_id", id);
+		context.setAttribute("user_id", id);
+		//context.getSuite().setAttribute("user_id", id);
 	}
 	
 	
