@@ -9,9 +9,7 @@
     <pluginManagement>
     
   		<plugins>
-  
-  			 
-    
+
          <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
@@ -74,7 +72,7 @@
 	  <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
-    <version>1.18.8</version>
+    <version>1.18.32</version>
     <scope>provided</scope>
 </dependency>
 

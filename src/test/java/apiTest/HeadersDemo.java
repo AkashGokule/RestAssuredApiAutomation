@@ -2,14 +2,11 @@ package apiTest;
 
 import static io.restassured.RestAssured.given;
 
-import java.util.Map;
-
 import org.testng.annotations.Test;
 
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
-import jdk.internal.net.http.common.Log;
 
 public class HeadersDemo {
 	
